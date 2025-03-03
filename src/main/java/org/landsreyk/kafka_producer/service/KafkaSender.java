@@ -11,7 +11,7 @@ import org.springframework.stereotype.Service;
 @Slf4j
 public class KafkaSender {
 
-    private static final String TOPIC = "test";
+    private static final String TOPIC = "test-topic";
 
     private final KafkaTemplate<String, OrderDTO> kafkaTemplate;
 
